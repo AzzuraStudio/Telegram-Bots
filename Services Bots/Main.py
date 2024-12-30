@@ -5,8 +5,8 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 API_TOKEN = '7895494742:AAGTqnrrCV76eNaR7K_YmBhg4-dMXUSRYFc'
 
 # Replace with your group and channel IDs
-GROUP_ID = -123456789  # Replace with your group ID
-CHANNEL_ID = -987654321  # Replace with your channel ID
+GROUP_ID = -1002273874326  # Replace with your group ID
+CHANNEL_ID = -1002428641212  # Replace with your channel ID
 
 # Initialize the bot
 bot = telebot.TeleBot(API_TOKEN)
