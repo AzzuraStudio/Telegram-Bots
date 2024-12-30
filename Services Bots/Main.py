@@ -17,9 +17,9 @@ def send_welcome(message):
     # Create inline keyboard
     keyboard = InlineKeyboardMarkup(row_width=2)
     group_button = InlineKeyboardButton(
-        text="Join Group", url="https://t.me/YourGroupLink")
+        text="Join Group", url="https://t.me/AzzuraStudioChat")
     channel_button = InlineKeyboardButton(
-        text="Join Channel", url="https://t.me/YourChannelLink")
+        text="Join Channel", url="https://t.me/azzurastudio")
     verify_button = InlineKeyboardButton(
         text="✅ Check Verification ✅", callback_data="check_verification")
 
