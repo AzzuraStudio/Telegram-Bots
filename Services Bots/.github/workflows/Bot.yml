@@ -1,7 +1,7 @@
 name: Run Telegram Bot
 
 on:
-  workflow_dispatch:  # Enables manual run button in GitHub Actions UI
+  workflow_dispatch:  # Allows manual start
 
 jobs:
   run-bot:
@@ -16,5 +16,4 @@ jobs:
           python-version: '3.x'
 
       - name: Run Bot
-        run: |
-          python main.py  # Replace `bot.py` with your bot filename
+        run: python main.py
